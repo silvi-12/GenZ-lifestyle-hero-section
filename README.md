@@ -1,0 +1,2 @@
+# GenZ lifestyle hero section
+ 

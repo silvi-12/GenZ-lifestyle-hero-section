@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;0,6..96,800;0,6..96,900;1,6..96,400;1,6..96,500;1,6..96,600;1,6..96,700;1,6..96,900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: black;
+	font-size: 1.2vw;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(to right, #3c2384 30%, #eb9bc8 30% 70%) no-repeat;
+	overflow-x: hidden;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+h2 {
+	font: bold;
+	font-size: 4vw;
+	font-style: italic;
+	font-family: "Bodoni Moda", serif;
+	color: #eca0f8;
+	margin: 1vw 0 0 4vw;
+}
+
+.links {
+	margin: 0 0 0 16vw;
+}
+
+.link {
+	padding: 3vw;
+}
+
+.img {
+	width: 24vw;
+	height: 32vw;
+	margin: 5vw 0 0 15vw;
+	position: relative;
+}
+
+.fashion {
+	transform: rotate(-90deg);
+	font-family: "Bakbak One";
+	font-style: normal;
+	position: absolute;
+	top: 22.8vw;
+	left: 21vw;
+	font-size: 6.5vw;
+	background: linear-gradient(
+		to bottom,
+		#eb9bc8 30%,
+		#fff 50%,
+		#3c2384 50% 100%
+	);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+
+.right {
+	transform: translateX(55vw);
+}
+
+.horizontal {
+	transform: translateY(-38vw) rotate(90deg);
+	transform-origin: left;
+	float: right;
+}
+
+.texts {
+	float: right;
+	transform: translateX(-77vw) translateY(-24vw);
+	font-style: italic;
+	font-family: "Bodoni Moda", serif;
+}
+
+.texts h1 {
+	font: 1100;
+	font-size: 5vw;
+	color: #2e1085;
+}
+
+.texts p {
+	font: 100;
+	color: #2e1085;
+}
