@@ -35,12 +35,19 @@ h2 {
 
 .link {
 	padding: 3vw;
+	font-size: 1.3vw;
+	display: inline;
+}
+
+.body {
+	display: flex;
 }
 
 .img {
 	width: 24vw;
 	height: 32vw;
-	margin: 5vw 0 0 15vw;
+	/* margin: 5vw 0 0 15vw; */
+	transform: translateX(15vw) translateY(5vw);
 	position: relative;
 }
 
@@ -62,19 +69,9 @@ h2 {
 	-webkit-background-clip: text;
 }
 
-.right {
-	transform: translateX(55vw);
-}
-
-.horizontal {
-	transform: translateY(-38vw) rotate(90deg);
-	transform-origin: left;
-	float: right;
-}
-
 .texts {
 	float: right;
-	transform: translateX(-77vw) translateY(-24vw);
+	transform: translateX(30vw) translateY(13vw);
 	font-style: italic;
 	font-family: "Bodoni Moda", serif;
 }
@@ -87,5 +84,110 @@ h2 {
 
 .texts p {
 	font: 100;
-	color: #2e1085;
+	color: #280d77;
+	font-size: 1.4vw;
+}
+
+.horizontal {
+	transform: translateX(-3vw) translateY(-34vw);
+	writing-mode: vertical-rl;
+	transform-origin: left;
+	float: right;
+}
+
+.hamburger {
+	display: none;
+	float: right;
+}
+
+@media (max-width: 500px) {
+	body {
+		background: linear-gradient(to right, #3c2384 25%, #eb9bc8 25% 75%)
+			no-repeat;
+	}
+	.name {
+		font-size: 5vw;
+	}
+	.img {
+		width: 32vw;
+		height: 48vw;
+		transform: translateX(8vw) translateY(5vw);
+		position: relative;
+	}
+	.fashion {
+		top: 30vw;
+		left: 14.3vw;
+		font-size: 10vw;
+	}
+	.texts h1 {
+		font-size: 6.2vw;
+		transform: translateX(-7vw) translateY(6vw);
+	}
+
+	.texts p {
+		font-size: 2.8vw;
+		transform: translateX(-7vw) translateY(6vw);
+		width: 28vw;
+	}
+
+	.links {
+		margin: 1vw 0 0 5.5vw;
+	}
+
+	.hamburger {
+		display: inline;
+		transform: translateX(63vw);
+	}
+
+	.link {
+		padding: 2.8vw;
+		font-size: 2.3vw;
+		display: none;
+	}
+	.horizontal {
+		transform: translateX(-3vw) translateY(-48vw);
+		letter-spacing: 0.2vw;
+	}
+}
+
+@media (min-width: 500px) and (max-width: 800px) {
+	.link {
+		font-size: 1.8vw;
+	}
+	.horizontal {
+		transform: translateX(-3vw) translateY(-32vw);
+	}
+
+	.img {
+		/* width: 24vw; */
+		height: 34vw;
+	}
+
+	.texts h1 {
+		font-size: 7vw;
+		transform: translateX(-5vw);
+	}
+
+	.texts p {
+		font-size: 2vw;
+		transform: translateX(-5vw);
+	}
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+	.link {
+		font-size: 1.7vw;
+	}
+	.horizontal {
+		transform: translateX(-3vw) translateY(-32vw);
+	}
+}
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+	.link {
+		font-size: 1.5vw;
+	}
+	.horizontal {
+		transform: translateX(-3vw) translateY(-32vw);
+	}
 }
