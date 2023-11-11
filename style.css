@@ -40,6 +40,14 @@ h2 {
 	display: inline;
 }
 
+a {
+	text-decoration: none;
+}
+
+a:first-child {
+	text-decoration: underline;
+}
+
 .body {
 	display: flex;
 	flex-wrap: wrap;
