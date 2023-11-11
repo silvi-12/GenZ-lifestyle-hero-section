@@ -97,7 +97,6 @@ h2 {
 
 .hamburger {
 	display: none;
-	float: right;
 }
 
 @media (max-width: 500px) {
