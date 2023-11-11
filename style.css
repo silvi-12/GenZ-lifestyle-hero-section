@@ -93,8 +93,17 @@ h2 {
 	writing-mode: vertical-rl;
 	transform-origin: left;
 	float: right;
+	position: relative;
 }
 
+.line {
+	width: 0.1vw;
+	height: 50vw;
+	background: #000;
+	position: absolute;
+	top: 44vw;
+	right: 4vw;
+}
 .hamburger {
 	display: none;
 }
@@ -107,26 +116,31 @@ h2 {
 	.name {
 		font-size: 5vw;
 	}
+
+	.body {
+		display: flex;
+		flex-direction: column;
+	}
 	.img {
-		width: 32vw;
-		height: 48vw;
+		width: 60vw;
+		height: 100vw;
 		transform: translateX(8vw) translateY(5vw);
 		position: relative;
 	}
 	.fashion {
-		top: 30vw;
-		left: 14.3vw;
-		font-size: 10vw;
+		top: 44vw;
+		left: 23vw;
+		font-size: 19vw;
 	}
 	.texts h1 {
-		font-size: 6.2vw;
-		transform: translateX(-7vw) translateY(6vw);
+		font-size: 10vw;
+		transform: translateX(-60vw) translateY(6vw);
 	}
 
 	.texts p {
-		font-size: 2.8vw;
-		transform: translateX(-7vw) translateY(6vw);
-		width: 28vw;
+		font-size: 3.8vw;
+		transform: translateX(-60vw) translateY(6vw);
+		width: 40vw;
 	}
 
 	.links {
@@ -143,9 +157,14 @@ h2 {
 		font-size: 2.3vw;
 		display: none;
 	}
-	.horizontal {
+	.side {
 		transform: translateX(-3vw) translateY(-48vw);
 		letter-spacing: 0.2vw;
+	}
+	.line {
+		top: 20vw;
+		right: 5vw;
+		height: 90vw;
 	}
 }
 
@@ -171,6 +190,10 @@ h2 {
 		font-size: 2vw;
 		transform: translateX(-5vw);
 	}
+	.line {
+		top: 55vw;
+		right: 4.3vw;
+	}
 }
 
 @media (min-width: 800px) and (max-width: 1000px) {
@@ -180,6 +203,10 @@ h2 {
 	.horizontal {
 		transform: translateX(-3vw) translateY(-32vw);
 	}
+	.line {
+		top: 50vw;
+		right: 4.2vw;
+	}
 }
 
 @media (min-width: 1000px) and (max-width: 1199px) {
@@ -188,5 +215,8 @@ h2 {
 	}
 	.horizontal {
 		transform: translateX(-3vw) translateY(-32vw);
+	}
+	.line {
+		top: 48vw;
 	}
 }
