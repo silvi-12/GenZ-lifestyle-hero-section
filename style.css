@@ -10,9 +10,9 @@
 
 body {
 	width: 100vw;
-	height: 99.999vh;
+	height: 100vh;
 	background: linear-gradient(to right, #3c2384 30%, #eb9bc8 30% 70%) no-repeat;
-	overflow-x: hidden;
+	overflow: hidden;
 }
 
 nav {
@@ -98,7 +98,7 @@ h2 {
 
 .line {
 	width: 0.1vw;
-	height: 50vw;
+	height: 5vw;
 	background: #000;
 	position: absolute;
 	top: 44vw;
@@ -165,7 +165,7 @@ h2 {
 	.line {
 		top: 22vw;
 		right: 5vw;
-		/* height: 70vw; */
+		height: 7vw;
 	}
 }
 
