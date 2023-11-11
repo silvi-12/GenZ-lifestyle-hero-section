@@ -12,7 +12,7 @@ body {
 	width: 100vw;
 	height: 99.999vh;
 	background: linear-gradient(to right, #3c2384 30%, #eb9bc8 30% 70%) no-repeat;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 
 nav {
