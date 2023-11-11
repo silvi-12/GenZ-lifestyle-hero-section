@@ -106,7 +106,7 @@ h2 {
 }
 .hamburger {
 	display: none;
-	transform: translateX(-63vw);
+	transform: translateX(63vw);
 }
 
 @media (max-width: 500px) {
@@ -151,7 +151,6 @@ h2 {
 
 	.hamburger {
 		display: inline;
-		transform: translateX(63vw);
 	}
 
 	.link {
