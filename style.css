@@ -6,7 +6,6 @@
 	box-sizing: border-box;
 	color: black;
 	font-size: 1.2vw;
-	font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -32,6 +31,7 @@ h2 {
 
 .links {
 	margin: 0 0 0 16vw;
+	font-family: "Roboto", sans-serif;
 }
 
 .link {
@@ -96,6 +96,7 @@ h2 {
 	transform-origin: left;
 	float: right;
 	position: relative;
+	font-family: "Roboto", sans-serif;
 }
 
 .line {
