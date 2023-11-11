@@ -106,6 +106,7 @@ h2 {
 }
 .hamburger {
 	display: none;
+	transform: translateX(-63vw);
 }
 
 @media (max-width: 500px) {
